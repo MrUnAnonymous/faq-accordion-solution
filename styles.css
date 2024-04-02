@@ -88,3 +88,9 @@ button:hover{
     color: var(--grayish-purple);
     padding: 1.5rem 0;
 }
+
+@media (max-width: 540px) {
+    body {
+        background-image: url(images/background-pattern-mobile.svg);
+    }
+}
